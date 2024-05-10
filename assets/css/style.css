@@ -112,7 +112,7 @@ figure.snip1390 figcaption {
 }
 figure.snip1390 h2,
 figure.snip1390 h4,
-figure.snip1390 blockquote {
+figure.blockquote {
   margin: 0;
 }
 figure.snip1390 h2,
@@ -426,4 +426,18 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .dropdown-item:focus, .dropdown-item:hover {
   color: white !important;
   background-color: rgb(40, 106, 173) !important;
+}
+
+/* accordion css  */
+
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0px !important; 
+    border-top-right-radius: opx !important;
+}
+.accordion-button:focus {
+  z-index: 3;
+  border-color: transparent !important;
+  outline: 0;
+  box-shadow: none !important;
 }
