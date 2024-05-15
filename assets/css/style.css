@@ -469,11 +469,43 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 /* cruis package page  css  */
 
 .cru-pac:hover .card{
-  background-color: red !important;
+  background-color:lightblue !important;
   color: black;
   padding: 15px;
 }
 .cru-pac:hover .golden-btn{
-  background-color: #A6A57A;
+  background-color: #efeb09;
   color: #000;
+  border: none;
+}
+/* about us section css */
+.about-crd{
+  background-color: rgb(66, 36, 36) !important;
+  border: none;
+  padding: 10px;
+  border-radius: 5% !important;
+}
+.about-crd .card-head img{
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.about-crd:hover{
+  transform: translateY(-10px);
+  animation: bounce 1s ease infinite !important;
+
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+/* gallery page css  */
+.nav-gall{
+  font-size: 20px !important;
 }
