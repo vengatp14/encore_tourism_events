@@ -27,7 +27,7 @@ var swiper = new Swiper(".slide-content", {
       },
   },
   autoplay: {
-    delay: 1000,
+    delay: 10000,
   },
 });
 
@@ -50,7 +50,7 @@ var swiper = new Swiper(".swiper", {
     enabled: true
   },
   autoplay: {
-    delay: 1000,
+    delay: 4000,
   },
   mousewheel: {
     thresholdDelta: 70
