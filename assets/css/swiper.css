@@ -21,11 +21,13 @@ main {
   min-height: 100svh; */
   column-gap: 3rem;
   /* padding-block: min(20vh, 3rem); */
+  font-family: asphodel;
 }
 
 .swiper {
   width: 100%;
   /* padding: 1.875rem 0; */
+  font-family: asphodel;
 }
 
 .swiper-slide {
