@@ -1,5 +1,10 @@
 
   @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Raleway:wght@700&display=swap");
+  @import url("/assets/vendors/font/Asphodel/asphodel.ttf");
+@font-face {
+  font-family: asphodel;
+  src: url(/assets/vendors/font/Asphodel/asphodel.ttf);
+}
 * {
   margin: 0;
   padding: 0;
