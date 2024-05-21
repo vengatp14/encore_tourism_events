@@ -528,3 +528,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .head{
   font-family: asphodel;
 }
+/* gold text css  */
+.gold-txt{
+  color: 	#999648;
+  font-weight: bold;
+
+}
