@@ -11,6 +11,10 @@
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif;
 }
+footer{
+  font-family: "Nunito Sans", sans-serif !important;
+  
+ }
 
 body {
   background: #fff;
@@ -26,7 +30,7 @@ main {
   min-height: 100svh; */
   column-gap: 3rem;
   /* padding-block: min(20vh, 3rem); */
-  font-family: asphodel;
+  /* font-family: asphodel; */
 }
 
 .swiper {

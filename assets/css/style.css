@@ -19,14 +19,14 @@ body, .bg-gold{
     color: white;
     /* position:absolute; */
     font-family: asphodel;
-  font-weight: bolder;
+  font-weight: normal;
  line-height: 1.2;
    letter-spacing: 1px;
    /* font-size: 15px; */
 }
 footer{
-  font-family: asphodel;
-  font-size: 20px;
+ font-family: var(--bs-font-sans-serif);
+  /* font-size: 20px; */
 }
 .font-txt{
   font-size: 25px !important;
@@ -533,4 +533,15 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   color: 	#999648;
   font-weight: bold;
 
+}
+/* social media links css  */
+.soc-lnk    .btn-soc {
+  color: white;
+  border-color: white;
+}
+
+ .soc-lnk   .btn-soc:hover {
+  color: white;
+  background-color: #0000FF;
+  border-color: #0000FF;
 }
