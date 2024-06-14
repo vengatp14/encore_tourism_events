@@ -530,8 +530,53 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 /* gold text css  */
 .gold-txt{
-  color: 	#999648;
+  background: -webkit-linear-gradient(#FFF455, 	#FFDF00 , #FF8F00 ,#FFE76A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
+  font-size: 40px;
+
+
+}
+video {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  /* min-width: 100%;
+  min-height: 100%; */
+  z-index: 1;
+ /* background: -webkit-linear-gradient(#000, white); */
+ height: 1500px;
+ width: 1530px;
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+  video {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    /* min-width: 100%;
+    min-height: 100%; */
+    z-index: 1;
+   /* background: -webkit-linear-gradient(#000, white); */
+   height: 1222px;
+   width: 1530px;
+  }
+}
+@media screen and (min-width:0px) and (max-width:475px){
+  video {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    /* min-width: 100%;
+    min-height: 100%; */
+    z-index: 1;
+   /* background: -webkit-linear-gradient(#000, white); */
+   height: 1160px;
+   width: 1530px;
+  }
+}
+.hero_banner{
+z-index: 0;
 
 }
 /* social media links css  */
