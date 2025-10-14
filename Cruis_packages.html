@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<!-- Font Awesome Icon Library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
+    <meta title="Exclusive Cruise Packages | Encore Tourisms">
+    <meta name="description" content="Discover luxurious cruise packages and unforgettable sea voyages. Find the perfect cruise vacation with Encore Tourisms and set sail in style.">
+    <title>Encore Tourism and Events - Cruis Package </title>
+  
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+    <!-- Favicons -->
+    <link href="./assets/imgs/Fav Icon Encore.png" rel="icon">
+  
     <!-- css  -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- boostrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+  
     <!-- on scroll animation  -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<!-- swipper css  -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- swipper css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Raleway:wght@700&display=swap");
@@ -26,13 +32,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
+
 }
 
-body {
-  background: #fff;
-}
 
+footer{
+  font-family: "Nunito Sans", sans-serif !important;
+  
+ }
 main {
   position: relative;
   width: calc(min(90rem, 90%));
@@ -43,6 +50,7 @@ main {
   min-height: 100svh; */
   column-gap: 3rem;
   /* padding-block: min(20vh, 3rem); */
+     /* font-family: asphodel; */
 }
 
 .swiper {
@@ -60,6 +68,7 @@ main {
   box-shadow: 0.063rem 0.5rem 1.25rem rgba(0, 0, 0, 0.1216);
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+  font-family: 'Lato', sans-serif !important;
 }
 .swiper-slide-img {
   position: relative;
@@ -79,7 +88,7 @@ main {
   inset: 0;
   object-fit: cover;
   z-index: -1;
-  transition: 0.3s ease-in-out;
+  transition: 3s ease-in-out;
   transform: rotate(-180deg);
 }
 .swiper-slide-img svg {
@@ -104,7 +113,7 @@ main {
 }
 .swiper-slide-content h2 {
   color: #000;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Lato', sans-serif !important;
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 1.4;
@@ -162,6 +171,13 @@ main {
 .swiper-3d .swiper-slide-shadow-right {
   background-image: none;
 }
+.swiper-slide-active {
+  transition: transform 10s ease !; /* Adjust the duration */
+}
+
+.swiper-slide-active:hover {
+  transform: scale(1.1) translateY(-0.5rem); /* Adjust the scale and translation */
+}
 
 @media screen and (min-width: 93.75rem) {
   .swiper {
@@ -169,51 +185,56 @@ main {
   }
 }
 </style>
+
 </head>
 <body style="overflow-x: hidden;">
-
 <div class="container-fluid bg-gold pb-5">
-
     <div class="row">
-        <div class="col-12 py-5_lg">
-                <!-- nav  -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-nav
-    ">
-        <div class="container-fluid">
-          <a class="navbar-brand " href="#"><img src="./assets/imgs/logo.png" height="80px" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active golden-btn mt-1 mx-2" aria-current="page" href="index.html">Destinations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link golden-btn mt-1 mx-2" href="Group_tours.html">Group tours</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link golden-btn mt-1 mx-2" href="Cruis_packages.html">Cruis package</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link golden-btn mt-1 mx-2" href="#">Itinerary</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link golden-btn mt-1 mx-2" href="About_Us.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link golden-btn mt-1 mx-2" href="contact_us.html">Contact US</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-          <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-whatsapp-4703919-3915171.png?f=webp" height="70px" class="ms-2" alt=""> 
-          <img src="https://static.vecteezy.com/system/resources/previews/018/842/789/original/realistic-phone-call-button-hotline-and-call-center-icon-customer-support-service-3d-rendering-free-png.png" height="50px" class="ms-2 mt-2" alt=""> 
-             
-            </form>
-          </div>
+      <div class="col-12 py-5_lg">
+<!-- nav  -->
+<nav class="navbar navbar-expand-lg fixed-top bg-nav">
+<div class="container-fluid">
+  <a class="navbar-brand " href="./index.html"><img src="./assets/imgs/logo.png" height="100px" alt=""></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active golden-btn mt-1 mx-1" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link golden-btn mt-1 mx-1" href="event_managment.html">Event Management</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link golden-btn mt-1 mx-1" href="gallery.html">Event Tourism Gallery</a>
+      </li> -->
+      <li class="nav-item">
+        <!-- <a class="nav-link golden-btn mt-1 mx-2" href="#">Itinerary</a> -->
+        <div class="dropdown ">
+          <span class="btn nav-link pt-2 text-start golden-btn mt-1 mx-1 dropdown-toggle drop_1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Tourism Destination
+          </span>
+          <ul class="dropdown-menu font-txt " aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item text-white " href="Group_tours.html">Tourism Itinerary</a></li>
+            <li><a class="dropdown-item text-white " href="Cruis_packages.html">Cruis Package</a></li>
+          </ul>
         </div>
-      </nav>
-        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link golden-btn mt-1 mx-1" href="study_abroad.html">Study Abroad</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link golden-btn mt-1 mx-1" href="About_Us.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link golden-btn mt-1 mx-1" href="contact_us.html">Contact US</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+</div>
 
       <section class="col-lg-12">
         <div class="row">
@@ -226,7 +247,7 @@ main {
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="swiper-slide-img">
-                    <img src="https://images.unsplash.com/photo-1543335785-8aadf6d8183c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" alt="">
+                    <img src="./assets/imgs/cruiz packages/Srilanka.png" alt="Louvre Tours">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                       <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
                       <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
@@ -235,9 +256,9 @@ main {
                   </div>
                   <div class="swiper-slide-content">
                     <div>
-                      <h2>louvre</h2>
-                      <p>National art museum in Paris, France. It is located on the Right Bank of the Seine in the city's 1st arrondissement (district or ward) and home to some of the most canonical works of Western art, including the Mona Lisa and the Venus de Milo.</p>
-                      <a class="show-more" href="https://en.wikipedia.org/wiki/Louvre" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <h2>Sri Lanka</h2>
+                      <p class="font-txt">Sri Lanka’s unexplored east coast, The land of Sun, Sea & Sambal.</p>
+                      <a class="show-more" href="#louvre" ><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
                         </svg></a>
                     </div>
@@ -245,7 +266,7 @@ main {
                 </div>
                 <div class="swiper-slide">
                   <div class="swiper-slide-img">
-                    <img src="https://images.unsplash.com/photo-1618822461310-da1be362e30c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="">
+                    <img src="./assets/imgs/cruiz packages/Tricomalee.png" alt="Louvre Tours">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                       <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
                       <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
@@ -254,9 +275,9 @@ main {
                   </div>
                   <div class="swiper-slide-content">
                     <div>
-                      <h2>seychelles</h2>
-                      <p>Officially the Republic of Seychelles is an island country and archipelagic state consisting of 155 islands in the Indian Ocean.</p>
-                      <a class="show-more" href="https://en.wikipedia.org/wiki/Seychelles" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <h2>Trincomalee</h2>
+                      <p class="font-txt">Trincomalee's unexplored east coast, The land of Sun, Sea & Sambal.</p>
+                      <a class="show-more" href="#louvre" ><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
                         </svg></a>
                     </div>
@@ -264,7 +285,7 @@ main {
                 </div>
                 <div class="swiper-slide">
                   <div class="swiper-slide-img">
-                    <img src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80" alt="">
+                    <img src="./assets/imgs/cruiz packages/Galle.png" alt="Seychelles Tourism">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                       <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
                       <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
@@ -273,9 +294,9 @@ main {
                   </div>
                   <div class="swiper-slide-content">
                     <div>
-                      <h2>london</h2>
-                      <p>The capital and largest city of England and the United Kingdom, with a population of around 8.8 million. It stands on the River Thames in south-east England at the head of a 50-mile (80 km) estuary down to the North Sea and has been a major settlement for nearly two millennia.</p>
-                      <a class="show-more" href="https://en.wikipedia.org/wiki/London" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <h2>Galle</h2>
+                      <p class="font-txt">A UNESCO World Heritage Site</p>
+                      <a class="show-more" href="#Seychelles" ><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
                         </svg></a>
                     </div>
@@ -283,7 +304,7 @@ main {
                 </div>
                 <div class="swiper-slide">
                   <div class="swiper-slide-img">
-                    <img src="https://images.unsplash.com/photo-1512100356356-de1b84283e18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1975&q=80" alt="">
+                    <img src="./assets/imgs/cruiz packages/Colombo.png" alt=" Maldives Tours">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                       <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
                       <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
@@ -292,9 +313,9 @@ main {
                   </div>
                   <div class="swiper-slide-content">
                     <div>
-                      <h2>maldives</h2>
-                      <p>Officially the Republic of Maldives is an archipelagic state and country in South Asia, situated in the Indian Ocean.</p>
-                      <a class="show-more" href="https://en.wikipedia.org/wiki/Maldives" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <h2>Colombo</h2>
+                      <p class="font-txt">The cosmopolitan city of many wonders.</p>
+                      <a class="show-more" href="#Maldives" ><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
                         </svg></a>
                     </div>
@@ -302,7 +323,7 @@ main {
                 </div>
                 <div class="swiper-slide">
                   <div class="swiper-slide-img">
-                    <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1886&q=80" alt="">
+                    <img src="./assets/imgs/cruiz packages/Jaffna.png" alt="Italy Tourism">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                       <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
                       <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
@@ -311,9 +332,124 @@ main {
                   </div>
                   <div class="swiper-slide-content">
                     <div>
-                      <h2>Italy</h2>
-                      <p>Located in the middle of the Mediterranean Sea, it consists of a peninsula delimited by the Alps and surrounded by several islands. Italy shares land borders with France, Switzerland, Austria, Slovenia and the enclaved microstates of Vatican City and San Marino.</p>
-                      <a class="show-more" href="https://en.wikipedia.org/wiki/Italy" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <h2>Jaffna</h2>
+                      <p class="font-txt">This historic town is a haven for travelers.</p>
+                      <a class="show-more" href="#Italy" ><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                        </svg></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-img">
+                    <img src="./assets/imgs/cruiz packages/Chennai.png" alt="Italy Tourism">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                    </svg>
+                  </div>
+                  <div class="swiper-slide-content">
+                    <div>
+                      <h2>Chennai</h2>
+                      <p class="font-txt">The capital city of Chennai reflects Tamil Nadu's rich heritage and culture.</p>
+                      <a class="show-more" href="#germany" ><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                        </svg></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-img">
+                    <img src="./assets/imgs/cruiz packages/Mumbai.png" alt="Italy Tourism">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                    </svg>
+                  </div>
+                  <div class="swiper-slide-content">
+                    <div>
+                      <h2>Mumbai</h2>
+                      <p class="font-txt">Home to three UNESCO World Heritage Sites, India's commercial capital is an iconic tourist destination.
+                        </p>
+                      <a class="show-more" href="#germany" ><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                        </svg></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-img">
+                    <img src="./assets/imgs/cruiz packages/Lakshadeep.png" alt="Italy Tourism">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                    </svg>
+                  </div>
+                  <div class="swiper-slide-content">
+                    <div>
+                      <h2>Lakshadweep</h2>
+                      <p class="font-txt">India’s smallest union territory with sandy beaches, Gorgeous greens and an abundance of flora and fauna.</p>
+                      <a class="show-more" href="#germany" ><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                        </svg></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-img">
+                    <img src="./assets/imgs/cruiz packages/Diu.png" alt="Italy Tourism">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                    </svg>
+                  </div>
+                  <div class="swiper-slide-content">
+                    <div>
+                      <h2>Diu</h2>
+                      <p class="font-txt">The charisma of this island beckons tourists from around the world.</p>
+                      <a class="show-more" href="#germany" ><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                        </svg></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-img">
+                    <img src="./assets/imgs/cruiz packages/Goa.png" alt="Italy Tourism">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                    </svg>
+                  </div>
+                  <div class="swiper-slide-content">
+                    <div>
+                      <h2>Goa</h2>
+                      <p class="font-txt">A popular destination for weekend getaways, Goa offers the unmatched combination of sun, sand and seafood.</p>
+                      <a class="show-more" href="#germany" ><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                        </svg></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-img">
+                    <img src="./assets/imgs/cruiz packages/Kochi.png" alt="Italy Tourism">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                    </svg>
+                  </div>
+                  <div class="swiper-slide-content">
+                    <div>
+                      <h2>Kochi</h2>
+                      <p class="font-txt">Perched on the Malabar Coast, Kochi has evolved into a city replete with arts cafes, charming homestays, and elegant heritage hotels.</p>
+                      <a class="show-more" href="#germany" ><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
                         </svg></a>
                     </div>
@@ -325,245 +461,365 @@ main {
         </div>
         </div>
       </section>
+      <!-- download your brochure section starts here  -->
+       <section class="py-5 bro_sec"> 
+        <div class="container">
+          <div class="row">
+            <h3>Explore the Voyage of Your Dreams!</h3>
+            <p class="bro_para">Ready to embark on a journey of a lifetime? Our exclusive cruise packages offer breathtaking destinations, luxurious accommodations, and unforgettable experiences. Whether you're looking for adventure, relaxation, or a bit of both, we have the perfect cruise for you.</p>
+            <div class="text-center">
+              <a class="btn btn_bro text-white text-decoration-underline   " target="_blank" href="./assets/imgs/brochure/cordelia-cruises-1673.pdf">Download Brochure</a>
+              <a class="btn btn_bro text-white text-decoration-underline mt-2 mt-md-0" target="_blank" href="./assets/imgs/brochure/main_brochure.pdf">Download Brochure</a>
+            </div>
+          </div>
+        </div>
+       </section>
+       <!--download your brochure section ends here   -->
+<!-- cruis package details section starts here  -->
 
-     <div class="col-lg-12">
+     <div class="col-lg-12 ">
       <h1 class="text-center my-5">Cruis Package Details</h1>
      </div>
-
-       <div class="col-lg-6">
-        <div class="card bg-transparent border-0 card-bg mb-3" >
+     <h3>West Coast Itenary</h3>
+       <div class="col-lg-6 cru-pac" id="louvre">
+        <div class="card bg-transparent border-0 card-bg mb-3 " >
           <div class="row g-0">
-            <div class="col-md-4 my-auto ">
-              <img src="./assets/imgs/2.png" class="img-fluid rounded-start" alt="...">
+            <div class="col-md-4 my-auto ps-md-2  ">
+              <img src="./assets/imgs/cruiz packages/1.png" class="img-fluid rounded-start " alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">London 2 Nignts with food and Accommodation</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h3 class="card-title">Weekend Itinerary 2 Nights From Mumbai</h3>
+                <p class="card-text font-txt">Mumbai - High Seas - Mumbai <br> Mumbai - Goa - Mumbai</p>
                 <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
 
-                <button class="golden-btn"> Book Now</button>
+                <button class="golden-btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</button>
               </div>
             </div>
           </div>
         </div>
        </div>
-       <div class="col-lg-6">
+       <div class="col-lg-6 cru-pac" id="Seychelles">
         <div class="card bg-transparent border-0 card-bg mb-3" >
           <div class="row g-0">
-            <div class="col-md-4 my-auto ">
-              <img src="./assets/imgs/2.png" class="img-fluid rounded-start" alt="...">
+            <div class="col-md-4 my-auto ps-md-2 ">
+              <img src="./assets/imgs/cruiz packages/2.png" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">London 2 Nignts with food and Accommodation</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h3 class="card-title">Weekday Itinerary 2 Nights From Mumbai</h3>
+                <p class="card-text font-txt">Mumbai - At Sea - Kochi <br> Mumbai - At Sea - Goa</p>
                 <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
 
-                <button class="golden-btn"> Book Now</button>
+                <button class="golden-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Book Now</button>
               </div>
             </div>
           </div>
         </div>
        </div>
-       <div class="col-lg-6">
+       <div class="col-lg-6 cru-pac" id="London">
         <div class="card bg-transparent border-0 card-bg mb-3" >
           <div class="row g-0">
-            <div class="col-md-4 my-auto ">
-              <img src="./assets/imgs/2.png" class="img-fluid rounded-start" alt="...">
+            <div class="col-md-4 my-auto ps-md-2 ">
+              <img src="./assets/imgs/cruiz packages/3.png" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">London 2 Nignts with food and Accommodation</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h3 class="card-title">Weekday Itinerary 5 Nights from Mumbai</h3>
+                <p class="card-text font-txt sz_fnt">Mumbai - Kochi - Lakshadweep - Mumbai <br> Mumbai - Goa - Lakshadweep - Mumbai</p>
                 <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
 
-                <button class="golden-btn"> Book Now</button>
+                <button class="golden-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Book Now</button>
               </div>
             </div>
           </div>
         </div>
        </div>
-       <div class="col-lg-6">
+       <div class="col-lg-6 cru-pac" id="London">
         <div class="card bg-transparent border-0 card-bg mb-3" >
           <div class="row g-0">
-            <div class="col-md-4 my-auto ">
-              <img src="./assets/imgs/2.png" class="img-fluid rounded-start" alt="...">
+            <div class="col-md-4 my-auto ps-md-2 ">
+              <img src="./assets/imgs/cruiz packages/4.png" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">London 2 Nignts with food and Accommodation</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h3 class="card-title">Weekday Itinerary 3 Nights</h3>
+                <p class="card-text font-txt">Kochi - Lakshadweep - Mumbai <br>Goa - Lakshadweep - Mumbai</p>
                 <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
 
-                <button class="golden-btn"> Book Now</button>
+                <button class="golden-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Book Now</button>
               </div>
             </div>
           </div>
         </div>
        </div>
-       <div class="col-lg-6">
+       <h3>East Coast Itenary</h3>
+       <div class="col-lg-6 cru-pac" id="London">
         <div class="card bg-transparent border-0 card-bg mb-3" >
           <div class="row g-0">
-            <div class="col-md-4 my-auto ">
-              <img src="./assets/imgs/2.png" class="img-fluid rounded-start" alt="...">
+            <div class="col-md-4 my-auto ps-md-2 ">
+              <img src="./assets/imgs/cruiz packages/5.png" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">London 2 Nignts with food and Accommodation</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h3 class="card-title">Weekend 2 Nignts from Chennai</h3>
+                <p class="card-text font-txt">Chennai - Jaffana - Chennai <br> Chennai - At Sea - Colombo</p>
                 <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
 
-                <button class="golden-btn"> Book Now</button>
+                <button class="golden-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Book Now</button>
               </div>
             </div>
           </div>
         </div>
        </div>
-       <div class="col-lg-6">
+       <div class="col-lg-6 cru-pac" id="London">
         <div class="card bg-transparent border-0 card-bg mb-3" >
           <div class="row g-0">
-            <div class="col-md-4 my-auto ">
-              <img src="./assets/imgs/2.png" class="img-fluid rounded-start" alt="...">
+            <div class="col-md-4 my-auto ps-md-2 ">
+              <img src="./assets/imgs/cruiz packages/6.png" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">London 2 Nignts with food and Accommodation</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h3 class="card-title">Weekday Itinerary 3 Nights</h3>
+                <p class="card-text font-txt">Colombo - Galle - Trincomalee - Chennai</p>
                 <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
 
-                <button class="golden-btn"> Book Now</button>
+                <button class="golden-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Book Now</button>
               </div>
             </div>
           </div>
         </div>
        </div>
+      
+       <div class="col-lg-6 cru-pac" id="Maldives">
+        <div class="card bg-transparent border-0 card-bg mb-3" >
+          <div class="row g-0">
+            <div class="col-md-4 my-auto ps-md-2 ">
+              <img src="./assets/imgs/cruiz packages/9.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3 class="card-title">Weekday Itenary 5 Nights</h3>
+                <p class="card-text font-txt ">Goa - At Sea - Kochi - Colombo - At Sea - Trincomalee - Chennai <br> Chennai - At Sea - Colombo - At Sea - Male - At Sea - Goa - Mumbai </p>
+                <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
 
+                <button class="golden-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="col-lg-6 cru-pac" id="London">
+        <div class="card bg-transparent border-0 card-bg mb-3" >
+          <div class="row g-0">
+            <div class="col-md-4 mt-lg-3 ps-md-2">
+              <img src="./assets/imgs/cruiz packages/8.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3 class="card-title">Weekday Itinerary 5 Nights</h3>
+                <p class="card-text font-txt">Chennai - At Sea - Colombo - Galle - Trincomalee - Chennai <br> Colombo - Galle - Trincomalee - Chennai - At Sea - Colombo</p>
+                <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+
+                <button class="golden-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="col-lg-6 cru-pac" id="London">
+        <div class="card bg-transparent border-0 card-bg mb-3" >
+          <div class="row g-0">
+            <div class="col-md-4 my-auto  ps-md-2">
+              <img src="./assets/imgs/cruiz packages/7.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3 class="card-title">Weekday Itinerary 4 Nights</h3>
+                <p class="card-text font-txt">Kochi - Colombo - At Sea - Trincomalee - Chennai</p>
+                <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+
+                <button class="golden-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      
     </div>
 </div>
-
+<!-- cruis package details section ends here  -->
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-animation text-muted ">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span>Get connected with us on social networks:</span>
-      </div>
-      <!-- Left -->
-  
-      <!-- Right -->
-      <div>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
-          
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-  
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-                Encore Tourism and Eventz
-            </h6>
-            <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit.
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Products
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Angular</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">React</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Vue</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Laravel</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Pricing</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Settings</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Orders</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Help</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fas fa-home me-3"></i> 1/334 KAVERi 2 ND Street, Srinagar, Iyerbanglow, Madurai -625017</p>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              encore.tne@gmail.com
-            </p>
-            <p><i class="fas fa-phone me-3"></i> +91 81100 16076</p>
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
-      </div>
-    </section>
-    <!-- Section: Links  -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="#"> Encore Tourism and Eventz</a>
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
     </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+    <!-- Left -->
+
+    <!-- Right -->
+    <div class="soc-lnk" >
+      <a class="btn   me-2 btn-md-square rounded-circle btn-soc " href=""><i
+        class="fab fa-instagram "></i></a>
+    <a class="btn  me-2 btn-md-square rounded-circle btn-soc" href=""><i
+        class="fab fa-facebook-f"></i></a>
+    <a class="btn  me-2 btn-md-square rounded-circle btn-soc" href=""><i class="fa-brands fa-square-youtube"></i></a>
+    <a class="btn  me-2 btn-md-square rounded-circle btn-soc" href=""><i
+        class="fab fa-linkedin-in"></i></a>
+        <a class="btn  me-2 btn-md-square rounded-circle btn-soc" href=""><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+              Encore Tourism and Eventz
+          </h6>
+          <p>
+            Specialize in curating exquisite travel experiences across Africa, Central America, Central Asia, Europe, the Far East, Indian Ocean, Indian Subcontinent, the Middle East, Polar regions, and South America.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Itinerary
+          </h6>
+          <p>
+            <a href="study_abroad.html" class="text-reset">Study Aboard</a>
+          </p>
+          <p>
+            <a href="event_managment.html" class="text-reset">Event Management</a>
+          </p>
+          <p>
+            <a href="gallery.html" class="text-reset">Gallery</a>
+          </p>
+        
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="Group_tours.html" class="text-reset">Group Tours</a>
+          </p>
+          <p>
+            <a href="Cruis_packages.html" class="text-reset">Cruis Package</a>
+          </p>
+          <p>
+            <a href="About_Us.html" class="text-reset">About us</a>
+          </p>
+          <p>
+            <a href="contact_us.html" class="text-reset">Contact us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i><a class="text-decoration-none text-reset" target="_blank" href="https://maps.app.goo.gl/56yVE1RNLGd9vBiU6">Door. No.6/268-A, R.S.No.265/15B, Ayyan Pudur, Paralipudur, Natham, Dindigul, Tamil Nadu, 624401</a> </p>
+          <p><i class="fas fa-home me-3"></i><a class="text-decoration-none text-reset" target="_blank" href="https://maps.app.goo.gl/56yVE1RNLGd9vBiU6">No.1/334 KAVERI 2 ND Street, Srinagar, Iyerbanglow, Madurai -625017</a> </p>
+            <i class="fas fa-envelope me-3"></i>
+            <a class="text-decoration-none text-reset" target="_blank" href="mailto:encore.tne@gmail.com">  encore.tne@gmail.com</a>
+          </p>
+          <p><i class="fas fa-phone me-3"></i><a target="_blank" class="text-decoration-none text-reset" href="tel:+91 81100 16076">+91 81100 16076</a> (K.SUJITH SUDHAMAN)</p>
+          <p><i class="fas fa-phone me-3"></i> <a target="_blank" class="text-decoration-none text-reset" href="tel:+91 99440 37677">+91 99440 37677</a> (K.SUJITH SUDHAMAN) </p>
+          <p><i class="fas fa-phone me-3"></i> <a target="_blank" class="text-decoration-none text-reset" href="tel:+91 94437 26899">+91 94437 26899</a> (N.KARTHICK)</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+
+  <!-- Copyright -->
+  <div class="text-center p-md-4 p-1 " style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="#"> Encore Tourism and Eventz</a>
+    <br>
+    © Designed By:
+    <a class="text-reset fw-bold" href="https://nexusdigitalia.com/">Nexus Digitalia</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<!-- sticky icons -->
+<a href="https://wa.me/+918110016076" target="_blank" style="position: fixed;  right: 15px; bottom: 85px;">
+<img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="whatsapp">
+</a>
+<a href="tel:+918110016076" target="_blank" style="position: fixed;  right: 15px; bottom: 15px;">
+<img src="./assets/imgs/phone.svg" alt="Phone Number" style="width: 55px;">
+</a>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                  Schedule Free Pick Up</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Name</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                      <label for="phone-number" class="col-form-label">Phone Number</label>
+                      <input type="text" class="form-control" id="phone-number">
+                  </div>
+                  <button type="button" class="btn btn-primary main-btn" onclick="sendMessage()">Send Message
+                  </button>
+              </form>
+          </div>
+
+      </div>
+  </div>
+</div>
+
+<script>
+  function sendMessage() {
+      // Get values from the form
+      var name = document.getElementById('recipient-name').value;
+      var phoneNumber = document.getElementById('phone-number').value;
+
+      // Validate phone number (remove non-numeric characters)
+      phoneNumber = phoneNumber.replace(/\D/g, '');
+
+      // Check if the phone number is not empty
+      if (phoneNumber.length  === 10) {
+          // Construct the WhatsApp message link
+          var message = "Hello " + name + "+91" +   phoneNumber;
+          var whatsappLink = "https://wa.me/" + +918110016076 + "?text=" + encodeURIComponent(message);
+
+          // Open the WhatsApp link in a new tab/window
+          window.open(whatsappLink, '_blank');
+      } else {
+          alert("Please enter a valid phone number.");
+      }
+  }
+</script>
 
 
 <!-- boostrap js -->

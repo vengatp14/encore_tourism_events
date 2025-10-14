@@ -1,127 +1,196 @@
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<!-- Font Awesome Icon Library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
+    <meta title="About Us - Encore Tourisms | Travel, Study Abroad, and Event Experts">
+    <meta name="description" content="Learn more about Encore Tourisms , our mission, and our team. We are dedicated to providing the best travel, study abroad, and event management services.">
+    <title>Encore Tourism and Events - About Us</title>
+  
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+    <!-- Favicons -->
+    <link href="./assets/imgs/Fav Icon Encore.png" rel="icon">
+  
     <!-- css  -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- boostrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+  
     <!-- on scroll animation  -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<!-- swipper css  -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- swipper css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
 
-</head>
 <body style="overflow-x: hidden;">
-
 <div class="container-fluid bg-gold pb-5">
 
     <div class="row">
-        <div class="col-12 py-5_lg">
-                <!-- nav  -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-nav
-    ">
-        <div class="container-fluid">
-          <a class="navbar-brand " href="#"><img src="./assets/imgs/logo.png" height="80px" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active golden-btn mt-1 mx-2" aria-current="page" href="index.html">Destinations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link golden-btn mt-1 mx-2" href="Group_tours.html">Group tours</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link golden-btn mt-1 mx-2" href="Cruis_packages.html">Cruis package</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link golden-btn mt-1 mx-2" href="#">Itinerary</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link golden-btn mt-1 mx-2" href="About_Us.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link golden-btn mt-1 mx-2" href="contact_us.html">Contact US</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-          <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-whatsapp-4703919-3915171.png?f=webp" height="70px" class="ms-2" alt=""> 
-          <img src="https://static.vecteezy.com/system/resources/previews/018/842/789/original/realistic-phone-call-button-hotline-and-call-center-icon-customer-support-service-3d-rendering-free-png.png" height="50px" class="ms-2 mt-2" alt=""> 
-             
-            </form>
+      <div class="col-12 py-5_lg">
+        <!-- nav  -->
+<nav class="navbar navbar-expand-lg fixed-top bg-nav
+">
+<div class="container-fluid">
+  <a class="navbar-brand " href="./index.html"><img src="./assets/imgs/logo.png" height="100px" alt=""></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active golden-btn mt-1 mx-1" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link golden-btn mt-1 mx-1" href="event_managment.html">Event Management</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link golden-btn mt-1 mx-1" href="gallery.html">Event Tourism Gallery</a>
+      </li> -->
+      <li class="nav-item">
+        <!-- <a class="nav-link golden-btn mt-1 mx-2" href="#">Itinerary</a> -->
+        <div class="dropdown ">
+          <span class="btn nav-link pt-2 text-start golden-btn mt-1 mx-1 dropdown-toggle drop_1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Tourism Destination
+          </span>
+          <ul class="dropdown-menu font-txt " aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item text-white " href="Group_tours.html">Tourism Itinerary</a></li>
+            <li><a class="dropdown-item text-white " href="Cruis_packages.html">Cruis Package</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link golden-btn mt-1 mx-1" href="study_abroad.html">Study Abroad</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link golden-btn mt-1 mx-1" href="About_Us.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link golden-btn mt-1 mx-1" href="contact_us.html">Contact US</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+</div>
+<!-- first section starts here  -->
+<section>
+  <div class="container">
+  <h1 class="text-center">About us</h1>
+  <div class="row pt-2">
+        <div class="col-lg-6">
+        
+          <img src="./assets/imgs/Gallery/About-US ofc.jpeg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-2 pt-lg-0 ">
+       
+        <p class="font-txt">Welcome to Encore Tourism and Events, your premier destination for unforgettable travel experiences. At Encore Tourism and Events, we specialize in curating extraordinary journeys that cater to a wide range of interests and preferences. With a dedication to excellence and a passion for adventure, we invite you to explore the world with us.
+          At Encore Tourism and Events, we are committed to providing exceptional service, unparalleled expertise, and unforgettable experiences. Let us help you turn your travel dreams into reality. 
+          <br>Contact us today to begin your journey.
+          Feel free to customize the description with your company's name, specific services, and any additional details that showcase your unique offerings and expertise in the travel industry.
+        </p>
+        </div>
+      </div>
+    </div>
+      </section>
+<!-- first section ends here  -->
+<!-- about us team section starts here -->
+<section class="abt-team pt-5">
+  <div class="container">
+    <div class="row d-flex justify-content-around">
+      <h2 class="text-center py-4">Our Teams</h2>
+      <div class="col-lg-6 col-xl-4 col-md-6 ">
+        <div class="card about-crd h-100">
+          <div class="card-head ">
+            <div class="text-center">
+            <img src="./assets/imgs/clients/team-1.png" alt=""></div>
+          </div>
+          <div class="card-body">
+            <h4 class="mb-0">K.SUJITH SUDHAMAN</h4>
+            <P>PROPRIETOR</P>
+            <p class="font-txt">I founded Encore Tourism because I believe in the power of events to connect, inspire, and achieve goals.</p>
           </div>
         </div>
-      </nav>
+      </div>
+      <div class="col-lg-6 col-xl-4 col-md-6 mt-3 mt-md-0">
+        <div class="card about-crd h-100">
+          <div class="card-head ">
+            <div class="text-center">
+            <img src="./assets/imgs/clients/team-3.png" alt=""></div>
+          </div>
+          <div class="card-body">
+            <h4 class="mb-0">M.KAMARAJ</h4>
+            <P>MANGING DIRECTOR</P>
+            <p class="font-txt">I founded Encore Tourism because I believe in the power of events to connect, inspire, and achieve goals.</p>
+          </div>
         </div>
-
-        <div class="col-lg-6">
-          <img src="./assets/imgs/aboutus.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 col-xl-4 col-md-6 mt-3 mt-md-3 mt-lg-4 mt-xl-0">
+        <div class="card about-crd h-100">
+          <div class="card-head ">
+            <div class="text-center">
+            <img src="./assets/imgs/clients/team-2.png" alt=""></div>
+          </div>
+          <div class="card-body">
+            <h4 class="mb-0">N.KARTHICK</h4>
+            <p class="">MARKETING MANAGER</p>
+            <p class="font-txt">I founded Encore Tourism because I believe in the power of events to connect, inspire, and achieve goals.</p>
+          </div>
         </div>
-
-        <div class="col-lg-6 my-auto">
-        <h1>About us</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad enim ea sed quae officiis voluptate? Magnam sed quaerat maiores laborum autem ipsa eveniet consequatur inventore mollitia, aperiam blanditiis totam quibusdam delectus quo saepe dolorum quis maxime assumenda quos animi est rerum labore. Expedita provident eius fugiat rerum esse asperiores, dicta officiis sed quae ut amet doloribus ullam aperiam modi atque incidunt tempore labore corrupti rem odio repellendus velit. Numquam tempora cupiditate ut quasi ratione sapiente doloribus animi? Aperiam consectetur magnam sit hic ratione explicabo rem cum totam adipisci? Consequuntur, ad. Neque voluptatibus modi perspiciatis ratione quis officiis quod reprehenderit atque sint dignissimos maxime veritatis sapiente doloremque, qui unde dolorem? Dolorum delectus quaerat rem impedit sapiente pariatur alias, vitae corporis aperiam iste. Quod voluptatibus quibusdam iure illo blanditiis eligendi eaque culpa nesciunt temporibus natus placeat magni quos ea quo error animi earum cupiditate, qui amet ex perspiciatis similique ipsa. Quis, beatae.</p>
-        </div>
-
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about us team section ends here -->
+<!-- faq section starts here  -->
 <div class="col-lg-12 my-5">
   <h1 class="text-center">
-    frequently asked questions
+    Frequently asked questions
   </h1>
 </div>
 
       <section class="col-lg-12">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item golden_bg">
-            <h2 class="accordion-header">
-              <button class="accordion-button golden_bg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Accordion Item #1
+        <div class="container">
+    
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed font-txt" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Our Services
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show golden_bg" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
+            <div id="flush-collapseOne" class="accordion-collapse collapse  golden_bg" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body font-txt"> <strong>Group Tours <br> Package Tours <br> Cruise Ship Packages <br> Event Management <br> Study Abroad</strong></div>
             </div>
           </div>
-          <div class="accordion-item golden_bg">
-            <h2 class="accordion-header ">
-              <button class="accordion-button collapsed golden_bg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion Item #2
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed font-txt" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Do we provide Exclusive offers
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse  golden_bg" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body font-txt">   <strong>Yes, We Do</strong> For Further Details <br>contact us: +91 8110016076 <br>Email: encore.tne@gmail.com</div>
             </div>
           </div>
-          <div class="accordion-item golden_bg">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed golden_bg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed font-txt" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Can we customize our trip plan
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
+            <div id="flush-collapseThree" class="accordion-collapse collapse  golden_bg" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body font-txt">  <strong>Yes, you can</strong> Feel free to contact us regarding that, but regarding that pricing may vary.</div>
             </div>
           </div>
         </div>
+      </div>
       </section>
-
+<!-- faq section ends here  -->
      
 
        
@@ -131,127 +200,126 @@
 
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-animation text-muted ">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span>Get connected with us on social networks:</span>
-      </div>
-      <!-- Left -->
-  
-      <!-- Right -->
-      <div>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
-          
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-  
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-                Encore Tourism and Eventz
-            </h6>
-            <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit.
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Products
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Angular</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">React</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Vue</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Laravel</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Pricing</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Settings</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Orders</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Help</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fas fa-home me-3"></i> 1/334 KAVERi 2 ND Street, Srinagar, Iyerbanglow, Madurai -625017</p>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              encore.tne@gmail.com
-            </p>
-            <p><i class="fas fa-phone me-3"></i> +91 81100 16076</p>
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
-      </div>
-    </section>
-    <!-- Section: Links  -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="#"> Encore Tourism and Eventz</a>
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
     </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+    <!-- Left -->
 
+    <!-- Right -->
+    <div class="soc-lnk" >
+      <a class="btn   me-2 btn-md-square rounded-circle btn-soc " href=""><i
+        class="fab fa-instagram "></i></a>
+    <a class="btn  me-2 btn-md-square rounded-circle btn-soc" href=""><i
+        class="fab fa-facebook-f"></i></a>
+    <a class="btn  me-2 btn-md-square rounded-circle btn-soc" href=""><i class="fa-brands fa-square-youtube"></i></a>
+    <a class="btn  me-2 btn-md-square rounded-circle btn-soc" href=""><i
+        class="fab fa-linkedin-in"></i></a>
+        <a class="btn  me-2 btn-md-square rounded-circle btn-soc" href=""><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+              Encore Tourism and Eventz
+          </h6>
+          <p>
+            Specialize in curating exquisite travel experiences across Africa, Central America, Central Asia, Europe, the Far East, Indian Ocean, Indian Subcontinent, the Middle East, Polar regions, and South America.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Itinerary
+          </h6>
+          <p>
+            <a href="study_abroad.html" class="text-reset">Study Aboard</a>
+          </p>
+          <p>
+            <a href="event_managment.html" class="text-reset">Event Management</a>
+          </p>
+          <p>
+            <a href="gallery.html" class="text-reset">Gallery</a>
+          </p>
+        
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="Group_tours.html" class="text-reset">Group Tours</a>
+          </p>
+          <p>
+            <a href="Cruis_packages.html" class="text-reset">Cruis Package</a>
+          </p>
+          <p>
+            <a href="About_Us.html" class="text-reset">About us</a>
+          </p>
+          <p>
+            <a href="contact_us.html" class="text-reset">Contact us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i><a class="text-decoration-none text-reset" target="_blank" href="https://maps.app.goo.gl/56yVE1RNLGd9vBiU6">Door. No.6/268-A, R.S.No.265/15B, Ayyan Pudur, Paralipudur, Natham, Dindigul, Tamil Nadu, 624401</a> </p>
+          <p><i class="fas fa-home me-3"></i><a class="text-decoration-none text-reset" target="_blank" href="https://maps.app.goo.gl/56yVE1RNLGd9vBiU6">No.1/334 KAVERI 2 ND Street, Srinagar, Iyerbanglow, Madurai -625017</a> </p>
+            <i class="fas fa-envelope me-3"></i>
+            <a class="text-decoration-none text-reset" target="_blank" href="mailto:encore.tne@gmail.com">  encore.tne@gmail.com</a>
+          </p>
+          <p><i class="fas fa-phone me-3"></i><a target="_blank" class="text-decoration-none text-reset" href="tel:+91 81100 16076">+91 81100 16076</a> (K.SUJITH SUDHAMAN)</p>
+          <p><i class="fas fa-phone me-3"></i> <a target="_blank" class="text-decoration-none text-reset" href="tel:+91 99440 37677">+91 99440 37677</a> (K.SUJITH SUDHAMAN) </p>
+          <p><i class="fas fa-phone me-3"></i> <a target="_blank" class="text-decoration-none text-reset" href="tel:+91 94437 26899">+91 94437 26899</a> (N.KARTHICK)</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+
+  <!-- Copyright -->
+  <div class="text-center p-md-4 p-1 " style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="#"> Encore Tourism and Eventz</a>
+    <br>
+    © Designed By:
+    <a class="text-reset fw-bold" href="https://nexusdigitalia.com/">Nexus Digitalia</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<!-- sticky icons -->
+<a href="https://wa.me/+918110016076" target="_blank" style="position: fixed;  right: 15px; bottom: 85px;">
+<img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="whatsapp">
+</a>
+<a href="tel:+918110016076" target="_blank" style="position: fixed;  right: 15px; bottom: 15px;">
+<img src="./assets/imgs/phone.svg" alt="Phone Number" style="width: 55px;">
+</a>
 
 <!-- boostrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
